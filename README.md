@@ -12,7 +12,7 @@ The POS-Tagging was created using **spacy** library.<br>
 Example of **spacy** use.
 
 ```python
-# This code will print 'DET NOUN VERB', which are the POS-Taggin of the phrase 'The cat runs' 
+# This code will print 'DET NOUN VERB', which is the POS-Tagging of the phrase 'The cat runs' 
 import spacy
 spacy_language = spacy.load('en_core_web_sm')
 sentence = spacy_language('The cat runs.')
