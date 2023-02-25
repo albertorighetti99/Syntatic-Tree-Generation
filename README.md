@@ -26,7 +26,7 @@ new grammar to **TreePrettyPrinter** object of *nltk*.
 
 ### Download
 Before to run the code is necessary to run the following commands, which allow to download the
-spacy grammar objects.
+spacy language models used for POS-Tagging.
 
 ```bash
 python -m spacy download en_core_web_sm
