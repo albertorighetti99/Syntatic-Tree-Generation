@@ -44,7 +44,7 @@ def extract_sentences(language: str):
 
 def select_package(language: str):
     """
-    Return the spacy package to load depending on selected language
+    Return the spacy language model to load depending on selected language
     :param language: the current language
     :return: the corresponding language package
     """
@@ -108,9 +108,9 @@ if __name__ == "__main__":
         print_language(lan)
         # read sentences from specific language file
         sentences = extract_sentences(lan)
-        # select spacy language package
+        # select spacy language model
         package = select_package(lan)
-        # load spacy language package
+        # load spacy language model
         language_package = spacy.load(package)
         # for each sentence read from the file
         for s in sentences:
